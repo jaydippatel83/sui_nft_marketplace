@@ -22,7 +22,7 @@ const Header = () => {
                 <nav className="w-full sm:w-auto mb-4 sm:mb-0">
                     <ul className="flex flex-wrap justify-center sm:space-x-6">
                         <li className="w-1/2 sm:w-auto mb-2 sm:mb-0"><Link to="/" className="hover:text-gray-300">Home</Link></li>
-                        <li className="w-1/2 sm:w-auto mb-2 sm:mb-0"><Link to="/explore" className="hover:text-gray-300">Explore</Link></li>
+                        <li className="w-1/2 sm:w-auto mb-2 sm:mb-0"><Link to="/marketplace" className="hover:text-gray-300">Explore</Link></li>
                         <li className="w-1/2 sm:w-auto mb-2 sm:mb-0"><Link to="/create" className="hover:text-gray-300">Create</Link></li>
                         <li className="w-1/2 sm:w-auto mb-2 sm:mb-0"><Link to="/profile" className="hover:text-gray-300">Profile</Link></li>
                     </ul>

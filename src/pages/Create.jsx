@@ -92,8 +92,7 @@ const Create = () => {
                     tx.pure.string(url),
                 ],
             });
-
-            console.log('Signing and executing transaction...');
+ 
             const result = await signAndExecute(
                 {
                     transaction: tx, 
@@ -113,9 +112,8 @@ const Create = () => {
                         toast.info('Transaction signed, waiting for execution...');
                     }
                 }
-            );
-console.log(result,"result");
-
+            ); 
+            console.log(result,"result");   
             setName('');
             setDescription('');
             setImageFile(null);
